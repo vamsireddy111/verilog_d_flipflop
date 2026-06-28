@@ -9,7 +9,7 @@ d_ff uut (
     .q(q)
 );
 
-// Clock generation
+
 always #5 clk = ~clk;
 
 initial begin
